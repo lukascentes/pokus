@@ -30,11 +30,11 @@
 
     <!-- NAVBAR -->
     @include('frontView.home.navbar')
-    <button class="button">Prihlásiť sa na pobyt</button>
+    <button class="button" onclick="window.location.href = 'login'">Prihlásiť sa na pobyt</button>
 
     <br>
-    <div class="img">
-        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/18500300-a8f9-4268-9ea8-3218a44cc4f1/d4tw4fp-b1a5beb2-e602-42ad-b1e2-1f872a722669.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE4NTAwMzAwLWE4ZjktNDI2OC05ZWE4LTMyMThhNDRjYzRmMVwvZDR0dzRmcC1iMWE1YmViMi1lNjAyLTQyYWQtYjFlMi0xZjg3MmE3MjI2NjkuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xE5A8fs5M1iQPKhHISYItQR1opRhvmxqWhektKrhqFI" style="height: 500px" width="100%">
+    <div style="margin-left: 70px ">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/18500300-a8f9-4268-9ea8-3218a44cc4f1/d4tw4fp-b1a5beb2-e602-42ad-b1e2-1f872a722669.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE4NTAwMzAwLWE4ZjktNDI2OC05ZWE4LTMyMThhNDRjYzRmMVwvZDR0dzRmcC1iMWE1YmViMi1lNjAyLTQyYWQtYjFlMi0xZjg3MmE3MjI2NjkuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xE5A8fs5M1iQPKhHISYItQR1opRhvmxqWhektKrhqFI" style="height: 500px" width="95%">
     </div>
     <br>
 

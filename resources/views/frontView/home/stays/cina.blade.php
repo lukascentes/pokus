@@ -1,5 +1,4 @@
 <!doctype html>
-<p>
     <head>
 
         <title> Čína </title>
@@ -22,11 +21,8 @@
                 color: white;
             }
         </style>
-
-
     </head>
 
-<p>
 
 <div class="fh5co-loader"></div>
 
@@ -35,11 +31,11 @@
     <!-- NAVBAR -->
     @include('frontView.home.navbar')
 
-    <button class="button">Prihlásiť sa na pobyt</button>
+    <button class="button" onclick="window.location.href = 'login'">Prihlásiť sa na pobyt</button>
 
     <br>
-    <div style="margin-left: 0px ">
-        <img src="https://www.travelbook.lt/wp-content/uploads/2017/07/kinija.jpg" style="height: 500px" width="100%">
+    <div style="margin-left: 70px ">
+        <img src="https://www.travelbook.lt/wp-content/uploads/2017/07/kinija.jpg" style="height: 500px" width="95%">
     </div>
     <br>
 

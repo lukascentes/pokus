@@ -209,7 +209,10 @@ position: absolute;
     color: #777;
   }
 }
-
+.vertical-menu {
+  position: absolute;
+  left: 60px;
+}
 
 .vertical-menu a {
   background-color: #eee;

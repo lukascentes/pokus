@@ -31,11 +31,11 @@
     <!-- NAVBAR -->
     @include('frontView.home.navbar')
 
-    <button class="button">Prihlásiť sa na pobyt</button>
+    <button class="button" onclick="window.location.href = 'login'">Prihlásiť sa na pobyt</button>
 
     <br>
-    <div style="margin-left: 0px ">
-        <img src="https://kbdevstorage1.blob.core.windows.net/asset-blobs/19440_en_1" style="height: 500px" width="100%">
+    <div style="margin-left: 70px ">
+        <img src="https://kbdevstorage1.blob.core.windows.net/asset-blobs/19440_en_1" style="height: 500px" width="95%">
     </div>
     <br>
 

@@ -1,5 +1,4 @@
 <!doctype html>
-<p>
 <head>
 
     <title> USA </title>
@@ -22,11 +21,8 @@
             color: white;
         }
     </style>
-
-
 </head>
 
-<p>
 
 <div class="fh5co-loader"></div>
 
@@ -34,11 +30,11 @@
 
     <!-- NAVBAR -->
     @include('frontView.home.navbar')
-    <button class="button">Prihlásiť sa na stáž</button>
+    <button class="button" onclick="window.location.href = 'login'">Prihlásiť sa na stáž</button>
 
     <br>
-        <div style="...">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Newark_October_2016_panorama.jpg/1800px-Newark_October_2016_panorama.jpg" style="height: 500px" width="100%">
+    <div style="margin-left: 70px ">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Newark_October_2016_panorama.jpg/1800px-Newark_October_2016_panorama.jpg" style="height: 500px" width="95%">
         </div>
     <br>
 

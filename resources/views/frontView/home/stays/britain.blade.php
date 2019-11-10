@@ -1,5 +1,4 @@
 <!doctype html>
-<p>
     <head>
 
         <title> Velka Britania</title>
@@ -9,7 +8,6 @@
 
     </head>
 
-<p>
 
 <div class="fh5co-loader"></div>
 
@@ -18,11 +16,11 @@
     <!-- NAVBAR -->
     @include('frontView.home.navbar')
 
-    <button class="button">Prihlásiť sa na pobyt</button>
+    <button class="button" onclick="window.location.href = 'login'">Prihlásiť sa na pobyt</button>
 
     <br>
-    <div style="margin-left: 0px ">
-        <img src="https://amiowealth.com/wp-content/uploads/2017/04/Fotolia_131878025_L.jpg" style="height: 500px" width="100%">
+    <div style="margin-left: 70px ">
+        <img src="https://amiowealth.com/wp-content/uploads/2017/04/Fotolia_131878025_L.jpg" style="height: 500px" width="95%">
     </div>
     <br>
 

@@ -11,7 +11,7 @@
                         <ul>
                             <li><a href="studijnepobyty">Študijné pobyty</a></li>
                             <li><a href="work">Pracovné stáže</a></li>
-                            <li><a href="blog.html">Účastnícke správy</a></li>
+                            <li><a href="spravy">Účastnícke správy</a></li>
                             <li><a href="#contact">Kontakt</a></li>
                             <li><a href="login">Prihlásiť sa</a></li>
                         </ul>

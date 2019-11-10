@@ -1,5 +1,4 @@
 <!doctype html>
-<p>
     <head>
 
         <title> Hong-Kong </title>
@@ -22,11 +21,8 @@
                 color: white;
             }
         </style>
-
-
     </head>
 
-<p>
 
 <div class="fh5co-loader"></div>
 
@@ -35,11 +31,11 @@
     <!-- NAVBAR -->
     @include('frontView.home.navbar')
 
-    <button class="button">Prihlásiť sa na stáž</button>
+    <button class="button" onclick="window.location.href = 'login'">Prihlásiť sa na stáž</button>
 
     <br>
-    <div style="margin-left: 0px ">
-        <img src="https://i.pinimg.com/originals/09/2e/9d/092e9db4e1c240c8f729005d06d8f08b.jpg" style="height: 500px" width="100%">
+    <div style="margin-left: 70px ">
+        <img src="https://i.pinimg.com/originals/09/2e/9d/092e9db4e1c240c8f729005d06d8f08b.jpg" style="height: 500px" width="95%">
     </div>
     <br>
 

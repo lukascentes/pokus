@@ -31,11 +31,11 @@
     <!-- NAVBAR -->
     @include('frontView.home.navbar')
 
-    <button class="button">Prihlásiť sa na pobyt</button>
+    <button class="button" onclick="window.location.href = 'login'">Prihlásiť sa na pobyt</button>
 
     <br>
-    <div style="margin-left: 0px ">
-        <img src="http://iaminmoscow.com/wp-content/uploads/2019/05/Moscow-city-tour-Panorama-of-the-Kremlin.jpg" style="height: 500px" width="100%">
+    <div style="margin-left: 70px ">
+        <img src="http://iaminmoscow.com/wp-content/uploads/2019/05/Moscow-city-tour-Panorama-of-the-Kremlin.jpg" style="height: 500px" width="95%">
     </div>
     <br>
 

@@ -31,11 +31,11 @@
     <!-- NAVBAR -->
     @include('frontView.home.navbar')
 
-    <button class="button">Prihlásiť sa na stáž</button>
+    <button class="button" onclick="window.location.href = 'login'">Prihlásiť sa na stáž</button>
 
     <br>
-    <div style="margin-left: 0px ">
-        <img src="https://theyrecallingtome.files.wordpress.com/2014/02/img_2587_89_91_taipei-panorama.jpg" style="height: 500px" width="100%">
+    <div style="margin-left: 70px ">
+        <img src="https://theyrecallingtome.files.wordpress.com/2014/02/img_2587_89_91_taipei-panorama.jpg" style="height: 500px" width="95%">
     </div>
     <br>
 

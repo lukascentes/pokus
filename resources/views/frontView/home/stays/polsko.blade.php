@@ -1,5 +1,4 @@
 <!doctype html>
-<p>
     <head>
 
         <title> Polsko </title>
@@ -22,11 +21,8 @@
                 color: white;
             }
         </style>
-
-
     </head>
 
-<p>
 
 <div class="fh5co-loader"></div>
 
@@ -35,11 +31,11 @@
     <!-- NAVBAR -->
     @include('frontView.home.navbar')
 
-    <button class="button">Prihlásiť sa na stáž</button>
+    <button class="button" onclick="window.location.href = 'login'">Prihlásiť sa na stáž</button>
 
     <br>
-    <div style="margin-left: 0px ">
-        <img src="https://img.jaywaytravel.com/destinations/wroclaw/gallery/wroclaw-town-hall-summertime.jpg?width=2100&height=900&format=png&sharp=0.5" style="height: 500px" width="100%">
+    <div style="margin-left: 70px ">
+        <img src="https://img.jaywaytravel.com/destinations/wroclaw/gallery/wroclaw-town-hall-summertime.jpg?width=2100&height=900&format=png&sharp=0.5" style="height: 500px" width="95%">
     </div>
     <br>
 
