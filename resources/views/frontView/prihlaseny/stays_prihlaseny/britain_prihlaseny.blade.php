@@ -30,6 +30,7 @@
         <a href="#Základné informácie">Základné informácie</a>
         <a href="#Vyhlásenie">Vyhásenie súťaže</a>
         <a href="#Prezentace zástupce University of Huddersfield">Prezentace zástupce University of Huddersfield</a>
+        <a href="#Lokalita">Kde sa univerzita nachádza</a>
         <a href="#foto">Fotogaléria</a>
     </div>
 
@@ -89,7 +90,14 @@
 </div>
 </p>
 
-
+<p id="Lokalita">
+    <div class="container-wrap2">
+        <h2><p style="font-style: normal; color: black; position: relative; padding-left: 35px; padding-top: 15px">Kde sa univerzita nachádza</p></h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d966.1248110515212!2d-1.7789712743506942!3d53.64381641662373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bdc7316c83381%3A0x622f032b6c8b151f!2sUniversity%20of%20Huddersfield!5e0!3m2!1ssk!2ssk!4v1573479921748!5m2!1ssk!2ssk" width="1150" height="450" frameborder="0" style="border:0; margin-left: 25px " allowfullscreen=""></iframe>
+</p>
+<br>
+</div>
+</p>
 
 <p id="foto">
     @include('frontView.home.gallery')

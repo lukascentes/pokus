@@ -43,6 +43,7 @@
     <div class="vertical-menu">
         <a class="active">Študijný pobyt</a>
         <a href="#Vyhlásenie">Vyhásenie súťaže</a>
+        <a href="#Lokalita">Kde sa univerzita nachádza</a>
         <a href="#foto">Fotogaléria</a>
     </div>
 
@@ -81,6 +82,14 @@
         <br><br>
         proděkanka pro rozvoj a zahraniční styky
     </p>
+</div>
+</p>
+
+<p id="Lokalita">
+    <div class="container-wrap2">
+        <h2><p style="font-style: normal; color: black; position: relative; padding-left: 35px; padding-top: 15px">Kde sa univerzita nachádza</p></h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1530.174518806874!2d116.37183027592974!3d39.91120456010765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f0528a024353e1%3A0x38280f05cdea2b07!2sHUAWEI!5e0!3m2!1ssk!2ssk!4v1573480681587!5m2!1ssk!2ssk" width="1150" height="450" frameborder="0" style="border:0; margin-left: 25px" allowfullscreen=""></iframe></p>
+<br>
 </div>
 </p>
 

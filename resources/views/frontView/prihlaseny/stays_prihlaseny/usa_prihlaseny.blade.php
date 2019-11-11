@@ -44,6 +44,7 @@
         <a href="#Základné informácie">Základné informácie</a>
         <a href="#Vyhlásenie">Vyhásenie súťaže</a>
         <a href="#Správy">Správy účastníkov</a>
+        <a href="#Lokalita">Kde sa univerzita nachádza</a>
         <a href="#foto">Fotogaléria</a>
     </div>
 
@@ -127,6 +128,14 @@
 
 </div>
 
+</p>
+
+<p id="Lokalita">
+    <div class="container-wrap2">
+        <h2><p style="font-style: normal; color: black; position: relative; padding-left: 35px; padding-top: 15px">Kde sa univerzita nachádza</p></h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.8817599536105!2d-87.20990014919181!3d30.411529956258732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8890c0b19c0cd243%3A0xfd1a93656f33ba24!2sInstitute%20for%20Human%20and%20Machine%20Cognition!5e0!3m2!1ssk!2ssk!4v1573481655952!5m2!1ssk!2ssk" width="1150" height="450" frameborder="0" style="border:0; margin-left: 25px" allowfullscreen=""></iframe>
+<br><br>
+</div>
 </p>
 
 <p id="foto">

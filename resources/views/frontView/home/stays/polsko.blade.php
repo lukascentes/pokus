@@ -44,6 +44,7 @@
         <a class="active">Pracovná stáž</a>
         <a href="#Základné informácie">Základné informácie</a>
         <a href="#Vyhlásenie">Vyhásenie súťaže</a>
+        <a href="#Lokalita">Kde sa univerzita nachádza</a>
         <a href="#foto">Fotogaléria</a>
     </div>
 
@@ -137,6 +138,16 @@
     proděkanka pro rozvoj a zahraniční styky
 </p>
 </div>
+</p>
+
+
+<p id="Lokalita">
+    <div class="container-wrap2">
+        <h2><p style="font-style: normal; color: black; position: relative; padding-left: 35px; padding-top: 15px">Kde sa univerzita nachádza</p></h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2979.075707460067!2d17.05629403413269!3d51.10672428726316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe82a7836289b%3A0xb8f93f04c5c8d70f!2sWroc%C5%82aw%20University%20of%20Science%20and%20Technology!5e0!3m2!1ssk!2ssk!4v1573481288691!5m2!1ssk!2ssk" width="1150" height="450" frameborder="0" style="border:0; margin-left: 25px" allowfullscreen=""></iframe>
+<br><br>
+</div>
+
 </p>
 
 

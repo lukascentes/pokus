@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<div>
 <head>
 
     <title> Rusko </title>
@@ -45,6 +45,7 @@
         <a href="#partnerskeuniverzity">Partnerské univerzity</a>
         <a href="#podmienkyvyjazdu">Podmienky výjazdu</a>
         <a href="#Vyhlaseniesutaze">Vyhlásenie súťaže</a>
+        <a href="#Lokalita">Kde sa univerzita nachádza</a>
         <a href="#foto">Fotogaléria</a>
     </div>
 
@@ -136,7 +137,13 @@
 </div>
 </p>
 
-
+<p id="Lokalita">
+    <div class="container-wrap2">
+        <h2><p style="font-style: normal; color: black; position: relative; padding-left: 35px; padding-top: 15px">Kde sa univerzita nachádza</p></h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.088065445617!2d30.29564301653713!3d59.91408578186719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469630f0da7cd95f%3A0x23241108a34efaa0!2sSt.%20Petersburg%20University%20of%20Management%20and%20Economics!5e0!3m2!1ssk!2ssk!4v1573481392455!5m2!1ssk!2ssk" width="1150" height="450" frameborder="0" style="border:0; padding-left: 25px" allowfullscreen=""></iframe>
+<br><br>
+</div>
+</p>
 
 <p id="foto">
     @include('frontView.home.gallery')

@@ -46,6 +46,7 @@
         <a href="#Vyhlaseniesutaze">Vyhlásenie súťaže</a>
         <a href="#predodjazdom">Pred odjazdom</a>
         <a href="#ponavrate">Po návrate</a>
+        <a href="#Lokalita">Kde sa univerzita nachádza</a>
         <a href="#foto">Fotogaléria</a>
     </div>
 
@@ -166,6 +167,14 @@
         <br>
         3) Závěrečná zpráva ze studijiního pobytu (osnovu lze stáhnout zde)
     </p>
+    </div>
+    </p>
+
+    <p id="Lokalita">
+        <div class="container-wrap2">
+            <h2><p style="font-style: normal; color: black; position: relative; padding-left: 35px; padding-top: 15px">Kde sa univerzita nachádza</p></h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.2692179322175!2d73.10220881627642!3d49.8186050793932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424346e496c789ff%3A0xbf6b602f3acf7ee1!2sKaraganda%20State%20Technical%20University!5e0!3m2!1ssk!2ssk!4v1573481066159!5m2!1ssk!2ssk" width="1150" height="450" frameborder="0" style="border:0; margin-left: 25px" allowfullscreen=""></iframe>
+    <br><br>
     </div>
     </p>
 

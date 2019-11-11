@@ -13,7 +13,7 @@
                         <li><a href="work_prihlaseny">Pracovné stáže</a></li>
                         <li><a href="spravy_prihlaseny">Účastnícke správy</a></li>
                         <li><a href="#contact">Kontakt</a></li>
-                        <li><a href="odhlasit_prihlaseny">Odlásiť sa</a></li>
+                        <li><a href="odhlasit_prihlaseny">Odhlásiť sa</a></li>
                     </ul>
                 </div>
             </div>
