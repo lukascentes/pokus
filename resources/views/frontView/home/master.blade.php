@@ -50,7 +50,6 @@
 <!-- NAVBAR -->
 @include('frontView.home.navbar')
 
-<br>
     <div class="container-wrap3">
 
 

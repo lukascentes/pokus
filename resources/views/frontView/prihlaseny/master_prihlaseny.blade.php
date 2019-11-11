@@ -50,7 +50,6 @@
     <!-- NAVBAR -->
     @include('frontView.prihlaseny.navbar_prihlaseny')
 
-    <br>
     <div class="container-wrap3">
 
 
