@@ -15,16 +15,19 @@ use Auth;
 class FrontController extends Controller
 {
     public function index(){
+
         return view('frontView.home.homeContent');
     }
 
     public function registration(){
     return view('frontView.home.registrationForm');
+
 }
 
     public function login()
     {
         return view('frontView.home.loginForm');
+
     }
 
     
