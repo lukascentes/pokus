@@ -7,8 +7,10 @@
  */
 
 namespace App\Http\Controllers;
+use App\Blog;
 use Illuminate\Http\Request;
 use Auth;
+
 
 class FrontController extends Controller
 {
@@ -174,6 +176,47 @@ class FrontController extends Controller
 
     public function cina_prihlaseny(){
         return view('frontView.prihlaseny.stays_prihlaseny.cina_prihlaseny');
+    }
+
+    public function pridatspravu(){
+        return view('frontView.prihlaseny.pridatspravu');
+    }
+
+    public function store(Request $request){
+        $blog= new Blog();
+
+        $blog->nazov_univerzity = $request->input('nazov_univerzity');
+        $blog->autor = $request->input('autor');
+        $blog->zaciatok = $request->input('zaciatok');
+        $blog->koniec = $request->input('koniec');
+        $blog->studijny_odbor = $request->input('studijny_odbor');
+        $blog->strucny_popis = $request->input('strucny_popis');
+
+
+        if($request->hasFile('image')){
+            $file = $request->file('image');
+            $extension = $file->getClientOriginalExtension();
+            $filename = time();
+            $file->move('uploads/highlights/', $filename. '.' .$extension);
+            $blog->image = $filename. '.' .$extension;
+        }else{
+            return $request;
+            $blog->image='';
+        }
+        $blog->save();
+        return view('frontView.prihlaseny.pridatspravu')->with('pridatspravu', $blog);
+    }
+
+    public function display()
+    {
+        $blog = Blog::all()->toArray();
+        return view('frontView.prihlaseny.spravy_prihlaseny', compact('blog'));
+    }
+
+    public function display_a()
+    {
+        $blog = Blog::all()->toArray();
+        return view('frontView.home.spravy', compact('blog'));
     }
 
 
