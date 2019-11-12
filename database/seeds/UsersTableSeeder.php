@@ -16,8 +16,8 @@ class UsersTableSeeder extends Seeder
             'first_name' => 'Lukas',
             'last_name' => 'Centes',
             'user_name' => '176525',
-            'password'   =>  Hash::make('9609302222'),
-            'email' => 'jssss@gmail.com',
+            'password'   =>  Hash::make('password'),
+            'email' => 'js@gmail.com',
             'remember_token' => str_random(10),
         ]);
     }

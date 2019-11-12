@@ -15,7 +15,7 @@ Route::get('/', 'FrontController@index');
 
 Route::get('/studijnepobyty', 'FrontController@pobyty');
 Route::get('/work', 'FrontController@work');
-Route::get('/spravy', 'FrontController@spravy');
+Route::get('/spravy', 'FrontController@display_a');
 Route::get('/sprava1', 'FrontController@sprava1');
 Route::post('/checklogin', 'FrontController@checklogin');
 Route::get('/successlogin', 'FrontController@successlogin');
@@ -93,8 +93,14 @@ Route::get('/login', 'FrontController@login');
 Route::get('/master_prihlaseny', 'FrontController@master_prihlaseny');
 Route::get('/studijnepobyty_prihlaseny', 'FrontController@studijnepobyty_prihlaseny');
 Route::get('/work_prihlaseny', 'FrontController@work_prihlaseny');
-Route::get('/spravy_prihlaseny', 'FrontController@spravy_prihlaseny');
+
+Route::get('/spravy_prihlaseny', 'FrontController@display');
+
 Route::get('/odhlasit_prihlaseny', 'FrontController@odhlasit_prihlaseny');
+
+Route::get('/pridatspravu', 'FrontController@pridatspravu');
+Route::post('/pridatspravu', 'FrontController@store')->name('addimage');
+
 
 
 
