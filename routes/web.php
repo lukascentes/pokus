@@ -20,6 +20,10 @@ Route::get('/sprava1', 'FrontController@sprava1');
 Route::post('/checklogin', 'FrontController@checklogin');
 Route::get('/successlogin', 'FrontController@successlogin');
 Route::get('/logout', 'FrontController@logout');
+Route::get('/admin', 'FrontController@admin');
+Route::get('/uzivatelia', 'FrontController@uzivatelia');
+
+
 
 
 // pobyty a staze routes

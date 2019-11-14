@@ -27,8 +27,14 @@ class FrontController extends Controller
         return view('frontView.home.loginForm');
     }
 
-    
-
+    public function admin()
+    {
+        return view('frontView.home.admin');
+    }
+    public function uzivatelia()
+    {
+        return view('frontView.home.uzivatelia');
+    }
 
 
     function checklogin(Request $request)
