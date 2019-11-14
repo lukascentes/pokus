@@ -1,6 +1,7 @@
 <p id="contact">
 <div class="container-wrap">
     <footer id="fh5co-footer" role="contentinfo">
+
         <div class="row">
             <div class="col-md-3 fh5co-widget">
                 <h4>O stránke</h4>
@@ -25,16 +26,54 @@
                 </ul>
             </div>
 
-            <div class="col-md-3">
-                <h4>Kontaktné informácie</h4>
-                <ul class="fh5co-footer-links">
-                    <li>Univerzita Konštantína Filozofa v Nitre <br> Tr. A. Hlinku 1, 949 74, Nitra </li>
-                    <li><a href="tel://1234567920">+421 37 6408 111</a></li>
-                    <li><a href="mailto:info@yoursite.com">ukf@ukf.sk</a></li>
-                </ul>
-            </div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+    <h4>Úradné hodiny</h4>
+    <table>
+        <tbody><tr>
+            <td>
+                Po
+            </td>
+            <td>
+                9 - 12
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Ut
+            </td>
+            <td>
+                9 - 12
+            </td>
+        </tr>
+        <tr>
+            <td>
+                St
+            </td>
+            <td>
+                12 - 15
+            </td>
 
-        </div>
+        </tr>
+        <tr>
+            <td>
+                Št
+            </td>
+            <td>
+               12 - 15
+            </td>
+
+        </tr>
+        </tbody></table>
+</div>
+</div>
+
+<div class="row copyright">
+    <div class="col-md-12 text-center">
+    <a class="lightbox" href="frontEnd/images/Ministerstvo.png">
+        <img src="frontEnd/images/Ministerstvo.png" style="max-width:50%" alt="Min">
+    </a>
+    </div>
+</div>
 
         <div class="row copyright">
             <div class="col-md-12 text-center">

@@ -39,7 +39,7 @@ class FrontController extends Controller
         $this->validate($request, [
             'email'   => 'required|email',
             'password'  => 'required|alphaNum|min:3'
-            
+
         ]);
 
         $user_data = array(
