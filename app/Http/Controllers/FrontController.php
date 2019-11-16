@@ -14,23 +14,34 @@ use Auth;
 
 class FrontController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return view('frontView.home.homeContent');
     }
 
-    public function registration(){
-    return view('frontView.home.registrationForm');
-}
+    public function registration()
+    {
+        return view('frontView.home.registrationForm');
+    }
 
     public function login()
     {
         return view('frontView.home.loginForm');
     }
-
+     //ADMIN
     public function admin()
     {
-        return view('frontView.home.admin');
+        return view('frontView.admin.admin');
     }
+    public function calendar()
+    {
+        return view('frontView.admin.calendar');
+    }
+
+
+
+    //používatelia
+
     public function uzivatelia()
     {
         return view('frontView.home.uzivatelia');
@@ -40,21 +51,18 @@ class FrontController extends Controller
     function checklogin(Request $request)
     {
         $this->validate($request, [
-            'email'   => 'required|email',
-            'password'  => 'required|alphaNum|min:3'
+            'email' => 'required|email',
+            'password' => 'required|alphaNum|min:3'
         ]);
 
         $user_data = array(
-            'email'  => $request->get('email'),
+            'email' => $request->get('email'),
             'password' => $request->get('password')
         );
 
-        if(Auth::attempt($user_data))
-        {
+        if (Auth::attempt($user_data)) {
             return redirect('successlogin');
-        }
-        else
-        {
+        } else {
             return back()->with('error', 'Wrong Login Details');
         }
     }
@@ -71,59 +79,73 @@ class FrontController extends Controller
     }
 
 
-    public function pobyty(){
+    public function pobyty()
+    {
         return view('frontView.home.studijnepobyty');
     }
 
-    public function work(){
+    public function work()
+    {
         return view('frontView.home.work');
     }
 
-    public function spravy(){
+    public function spravy()
+    {
         return view('frontView.home.spravy');
     }
 
-    public function sprava1(){
+    public function sprava1()
+    {
         return view('frontView.home.sprava.sprava1');
     }
 
-    public function usa(){
+    public function usa()
+    {
         return view('frontView.home.stays.usa');
     }
 
-    public function gallery(){
+    public function gallery()
+    {
         return view('frontView.home.gallery');
     }
 
-    public function kazachstan(){
+    public function kazachstan()
+    {
         return view('frontView.home.stays.kazachstan');
     }
 
-    public function malajzia(){
+    public function malajzia()
+    {
         return view('frontView.home.stays.malajzia');
     }
 
-    public function rusko(){
+    public function rusko()
+    {
         return view('frontView.home.stays.rusko');
     }
 
-    public function britain(){
+    public function britain()
+    {
         return view('frontView.home.stays.britain');
     }
 
-    public function hong_kong(){
+    public function hong_kong()
+    {
         return view('frontView.home.stays.hong_kong');
     }
 
-    public function taiwan(){
+    public function taiwan()
+    {
         return view('frontView.home.stays.taiwan');
     }
 
-    public function polsko(){
+    public function polsko()
+    {
         return view('frontView.home.stays.polsko');
     }
 
-    public function cina(){
+    public function cina()
+    {
         return view('frontView.home.stays.cina');
     }
 
@@ -152,48 +174,59 @@ class FrontController extends Controller
         return view('frontView.prihlaseny.odhlasit_prihlaseny');
     }
 
-    public function usa_prihlaseny(){
+    public function usa_prihlaseny()
+    {
         return view('frontView.prihlaseny.stays_prihlaseny.usa_prihlaseny');
     }
 
-    public function kazachstan_prihlaseny(){
+    public function kazachstan_prihlaseny()
+    {
         return view('frontView.prihlaseny.stays_prihlaseny.kazachstan_prihlaseny');
     }
 
-    public function malajzia_prihlaseny(){
+    public function malajzia_prihlaseny()
+    {
         return view('frontView.prihlaseny.stays_prihlaseny.malajzia_prihlaseny');
     }
 
-    public function rusko_prihlaseny(){
+    public function rusko_prihlaseny()
+    {
         return view('frontView.prihlaseny.stays_prihlaseny.rusko_prihlaseny');
     }
 
-    public function britain_prihlaseny(){
+    public function britain_prihlaseny()
+    {
         return view('frontView.prihlaseny.stays_prihlaseny.britain_prihlaseny');
     }
 
-    public function hong_kong_prihlaseny(){
+    public function hong_kong_prihlaseny()
+    {
         return view('frontView.prihlaseny.stays_prihlaseny.hong_kong_prihlaseny');
     }
 
-    public function taiwan_prihlaseny(){
+    public function taiwan_prihlaseny()
+    {
         return view('frontView.prihlaseny.stays_prihlaseny.taiwan_prihlaseny');
     }
 
-    public function polsko_prihlaseny(){
+    public function polsko_prihlaseny()
+    {
         return view('frontView.prihlaseny.stays_prihlaseny.polsko_prihlaseny');
     }
 
-    public function cina_prihlaseny(){
+    public function cina_prihlaseny()
+    {
         return view('frontView.prihlaseny.stays_prihlaseny.cina_prihlaseny');
     }
 
-    public function pridatspravu(){
+    public function pridatspravu()
+    {
         return view('frontView.prihlaseny.pridatspravu');
     }
 
-    public function store(Request $request){
-        $blog= new Blog();
+    public function store(Request $request)
+    {
+        $blog = new Blog();
 
         $blog->nazov_univerzity = $request->input('nazov_univerzity');
         $blog->autor = $request->input('autor');
@@ -203,15 +236,15 @@ class FrontController extends Controller
         $blog->strucny_popis = $request->input('strucny_popis');
 
 
-        if($request->hasFile('image')){
+        if ($request->hasFile('image')) {
             $file = $request->file('image');
             $extension = $file->getClientOriginalExtension();
             $filename = time();
-            $file->move('uploads/highlights/', $filename. '.' .$extension);
-            $blog->image = $filename. '.' .$extension;
-        }else{
+            $file->move('uploads/highlights/', $filename . '.' . $extension);
+            $blog->image = $filename . '.' . $extension;
+        } else {
             return $request;
-            $blog->image='';
+            $blog->image = '';
         }
         $blog->save();
         return view('frontView.prihlaseny.pridatspravu')->with('pridatspravu', $blog);
@@ -228,6 +261,5 @@ class FrontController extends Controller
         $blog = Blog::all()->toArray();
         return view('frontView.home.spravy', compact('blog'));
     }
-
 
 }

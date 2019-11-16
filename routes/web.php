@@ -21,7 +21,9 @@ Route::post('/checklogin', 'FrontController@checklogin');
 Route::get('/successlogin', 'FrontController@successlogin');
 Route::get('/logout', 'FrontController@logout');
 Route::get('/admin', 'FrontController@admin');
-Route::get('/uzivatelia', 'FrontController@uzivatelia');
+Route::get('/calendar', 'FrontController@calendar');
+
+
 
 
 
