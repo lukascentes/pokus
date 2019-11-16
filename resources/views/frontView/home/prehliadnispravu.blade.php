@@ -1,34 +1,33 @@
 <!doctype html>
-<html>
 <head>
 
-    <title> @yield('title_area') </title>
+    <title> Detail spravy </title>
 
     @include('frontView.home.meta')
-
     @include('frontView.home.scripts')
-
 
 </head>
 
 
 <div class="fh5co-loader"></div>
-
 <div id="page">
 
-    <!-- NAVBAR -->
     @include('frontView.home.navbar')
 
-
     <div class="container-wrap2" style="top: 300px">
-        <p style="font-style: normal; color: black; position: relative";>
 
-        s
+        <p>Autor: {!!$row->autor!!}</p>
 
-        </div><!-- END container-wrap -->
+    </div>
+
+
+    <p id="foto">
+        @include('frontView.home.gallery')
+    </p>
 </div>
-
+<br>
 @include('frontView.home.footer')
+
 
 </body>
 </html>
