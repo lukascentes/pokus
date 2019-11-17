@@ -2,36 +2,33 @@
 <div class="container-wrap">
     <footer id="fh5co-footer" role="contentinfo">
 
-        <div class="row">
-            <div class="col-md-3 fh5co-widget">
-                <h4>O stránke</h4>
-                <p>Túto stránku vytvoril team HogoFogo. Stránka slúži ako projekt k predmetu Softvérové inžinierstvo a Pokročilé webové technológie</p>
-            </div>
-            <div class="col-md-3 col-md-push-1">
-                <h4>Posledné pridané</h4>
-                <ul class="fh5co-footer-links">
-                    <li><a href="usa">USA</a></li>
-                    <li><a href="kazachstan">Kazachstan</a></li>
-                    <li><a href="malajzia">Malajzia</a></li>
-                </ul>
-            </div>
-
-            <div class="col-md-3 col-md-push-1">
-                <h4>Menu</h4>
-                <ul class="fh5co-footer-links">
-                    <li><a href="studijnepobyty">Študijné pobyty</a></li>
-                    <li><a href="work.html">Pracovné stáže</a></li>
-                    <li><a href="blog.html">Účastnícke správy</a></li>
-                    <li><a href="contact.html">Kontakt</a></li>
-                </ul>
-            </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+<p><strong>PhDr. Martina Pavlíková, PhD</strong></p>
+<p class="underline"><strong>prorektorka pre medzinárodné vzťahy</strong></p>
+<p><a href="mailto:mpavlikova@ukf.sk " title="petra.poulova@uhk.cz">mpavlikova@ukf.sk </a></p>
+<p>037/6408 007</p>
+</div>
 
 <div class="col-md-3 col-sm-6 col-xs-12">
-    <h4>Úradné hodiny</h4>
+    <p><strong>Ing. Silvia Hrozenská, PhD</strong></p>
+    <p class="underline"><strong>koordinátorka pre prichádzajúcich študentov</strong></p>
+    <p><a href="mailto:shrozenska@ukf.sk" title="petra.poulova@uhk.cz">shrozenska@ukf.sk</a></p>
+    <p>037/6408 035</p>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12">
+    <p><strong>Mgr. Pavol Vakoš</strong></p>
+    <p class="underline"><strong>koordinátor pre odchádzajúcich študentov</strong></p>
+    <p><a href="mailto:pvakos@ukf.sk" title="petra.poulova@uhk.cz">pvakos@ukf.sk</a></p>
+    <p class="light">037/6408 120</p>
+</div>
+
+<div class="col-md-3 col-sm-6 col-xs-12">
+    <p><strong>Úradné hodiny</strong></p>
     <table>
         <tbody><tr>
             <td>
-                Po
+                Po:
             </td>
             <td>
                 9 - 12
@@ -39,7 +36,7 @@
         </tr>
         <tr>
             <td>
-                Ut
+                Ut:
             </td>
             <td>
                 9 - 12
@@ -47,7 +44,7 @@
         </tr>
         <tr>
             <td>
-                St
+                St:
             </td>
             <td>
                 12 - 15
@@ -56,7 +53,7 @@
         </tr>
         <tr>
             <td>
-                Št
+                Št:
             </td>
             <td>
                12 - 15
@@ -71,7 +68,13 @@
     <div class="col-md-12 text-center">
     <a class="lightbox" href="frontEnd/images/Ministerstvo.png">
         <img src="frontEnd/images/Ministerstvo.png" style="max-width:50%" alt="Min">
+
     </a>
+        <a class="lightbox" href="frontEnd/images/eu_logo.png">
+            <img src="frontEnd/images/eu_logo.png" style="max-width:50%" alt="EU_logo">
+
+        </a>
+
     </div>
 </div>
 
