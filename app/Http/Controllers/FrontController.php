@@ -10,6 +10,9 @@ namespace App\Http\Controllers;
 use App\Blog;
 use Illuminate\Http\Request;
 use Auth;
+use App\User;
+use App\Destinations;
+use App\Spravyadmin;
 
 
 class FrontController extends Controller
@@ -44,7 +47,26 @@ class FrontController extends Controller
 
     public function uzivatelia()
     {
-        return view('frontView.home.uzivatelia');
+        $users = User::all();
+        return view('frontView.admin.uzivatelia', compact('users'));
+    }
+
+    public function destinations()
+    {
+        $destinations = Destinations::where('typ','=','Študijný pobyt' ) -> get();
+        return view('frontView.admin.destinations', compact('destinations'));
+    }
+
+    public function works()
+    {
+        $destinations = Destinations::where('typ','=','Pracovná stáž' ) -> get();
+        return view('frontView.admin.destinations', compact('destinations'));
+    }
+
+    public function spravyadmin()
+    {
+        $spravyadmin = Spravyadmin::all();
+        return view('frontView.admin.spravyadmin', compact('spravyadmin'));
     }
 
 

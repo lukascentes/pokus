@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 <link rel="stylesheet" href="{{ asset('frontEnd') }}/css/gallery-grid.css">
 <link rel="stylesheet" href="{{ asset('frontEnd') }}/css/style.css">
+<link rel="stylesheet" href="{{ asset('frontEnd') }}/css/update.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 <script>
     baguetteBox.run('.tz-gallery');
@@ -148,4 +149,9 @@
         $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
         /*#endregion responsive code end*/
     };
+
+
+
+
+
 </script>

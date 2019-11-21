@@ -133,7 +133,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="studijne_pobyty" class="nav-link">
+                        <a href="destinations" class="nav-link">
                             <i class="nav-icon fas fa-th"></i>
                             <p>
                               Študijné pobyty
@@ -142,7 +142,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="pracovne_staze" class="nav-link">
+                        <a href="works" class="nav-link">
                             <i class="nav-icon fas fa-th"></i>
                             <p>
                                 Pracovné stáže

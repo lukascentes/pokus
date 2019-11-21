@@ -22,8 +22,16 @@ Route::get('/successlogin', 'FrontController@successlogin');
 Route::get('/logout', 'FrontController@logout');
 Route::get('/admin', 'FrontController@admin');
 Route::get('/calendar', 'FrontController@calendar');
-
-
+Route::get('uzivatelia', ['as'=>'uzivatelia','uses'=>'FrontController@uzivatelia']);
+Route::get('destinations', ['as'=>'destinations','uses'=>'FrontController@destinations']);
+Route::get('spravyadmin', ['as'=>'spravyadmin','uses'=>'FrontController@spravyadmin']);
+Route::get('works', ['as'=>'works','uses'=>'FrontController@works']);
+Route::post('/insert', ['as' => 'insert', 'uses' => 'UserController@insertAction']);
+Route::get("/show-users", "UserController@showAllAction");
+Route::get('/show/{id}', ['as' => 'show','uses' => 'UserController@showAction']);
+Route::post("update-user/{id}", "UserController@updateAction");
+Route::get('/delete/{id}', ['as' => 'delete','uses' => 'UserController@deleteAction']);
+Route::get("/insert-user", "UserController@getAddUserForm");
 
 
 
