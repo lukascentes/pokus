@@ -137,7 +137,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="ucastnicke_spravy" class="nav-link">
+                        <a href="spravyadmin" class="nav-link">
                             <i class="nav-icon fas fa-th"></i>
                             <p>
                                 Účastnícke správy

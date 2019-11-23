@@ -475,7 +475,8 @@
                             <td>{{$destination['typ']}}</td>
                             <td>{{$destination['popis']}}</td>
                             <td>{{$destination['vyhlasenie_kto']}}</td>
-
+                            <td><a href="{{action ("DestinationsController@showDestinationAction",['id' => $destination->id])}}" class="btn btn-success" role="button" aria-pressed="true">Editovať</a></td>
+                            <td><a href="{{action ("DestinationsController@deleteAction",['id' => $destination->id])}}" class="btn btn-danger" role="button" aria-pressed="true">Zmazať</a></td>
                         </tr>
                     @endforeach
                 </table>

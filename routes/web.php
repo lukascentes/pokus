@@ -33,6 +33,12 @@ Route::post("update-user/{id}", "UserController@updateAction");
 Route::get('/delete/{id}', ['as' => 'delete','uses' => 'UserController@deleteAction']);
 Route::get("/insert-user", "UserController@getAddUserForm");
 
+Route::get("/insert-destination", "DestinationsController@getAddDestinationForm");
+Route::post('/insertdestination', ['as' => 'insert', 'uses' => 'DestinationsController@insertAction']);
+Route::post("update-destination/{id}", "DestinationsController@updateAction");
+Route::get('/deletedestination/{id}', ['as' => 'delete','uses' => 'DestinationsController@deleteAction']);
+Route::get("/show-destinations", "DestinationsController@showAllAction");
+Route::get('/showdestinations/{id}', ['as' => 'show','uses' => 'DestinationsController@showDestinationAction']);
 
 
 
