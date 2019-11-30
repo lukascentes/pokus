@@ -27,6 +27,10 @@ class FrontController extends Controller
         return view('frontView.home.loginForm');
     }
 
+    
+
+
+
     function checklogin(Request $request)
     {
         $this->validate($request, [
